@@ -11,10 +11,10 @@ const Header = () => {
                 <div>
                     <NavLink className=' text-slate-300' to="/"><h1>Yo'ldashev</h1></NavLink>
                 </div>
-                <nav className=''>
+                <nav className='flex justify-between items-center'>
                     <div className='w-full '>
-                        <div className=" flex justify-between items-center">
-                            <ul className=' text-slate-300 text-xl space-x-10 mr-10 px-8 font-semibold flex justify-between items-center '>
+                        <div className="flex ">
+                            <ul className='text-slate-300 text-xl space-x-10  px-8 font-semibold flex justify-between items-center '>
 
                                 <li className="relative after:left-0 after:bottom-0 after:translate-y-full after:absolute after:h-1  after:w-0 after:transition-all after:duration-500 hover:text-blue-600 hover:after:w-full">
                                     <NavLink className="relative after:left-0 after:bottom-0 after:translate-y-full after:absolute   after:w-0 after:transition-all after:duration-500 hover:text-blue-600 hover:after:w-full" to="/">Uy</NavLink>
