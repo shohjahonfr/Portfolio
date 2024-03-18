@@ -7,21 +7,44 @@ import Tailwind from "../img/tailwindcss.svg"
 import Js from "../img/js.svg"
 import react from "../img/react.svg"
 import redux from "../img/redux.svg"
-import redux from "../img/redux.svg"
-import git5 from "../img/git5.png"
 const Tehnalogy = () => {
   return (
-    <div>
-      <div className='w-20 h-20'>
-         <img src={Html}alt="html" />
-         <img src={Css}alt="css" />
-         <img src={Boots}alt="botstrap" />
-         <img src={Tailwind}alt="tailwindcss" />
-         <img src={Js}alt="Js" />
-         <img src={react}alt="react" />
-         <img src={redux}alt="Redux" />
-         <img src=""alt="git5" />
+    <div className=''>
+      <div className='w-full max-w-3xl items-center'>
+        <h1 className='font-bold text-4xl'>Tehnalogialar</h1>
       </div>
+    <div className='w-full max-w-6xl mx-auto'> 
+    <div className=''>
+      <div class="flex gap-20 mx-auto">
+        <div className='w-40 h-40 p-10  rounded-full bg-gradient-to-r from-violet-500 to-fuchsia-500'>
+        <img src={Html} alt="" />
+        </div>
+        <div className='w-40 h-40 p-10  rounded-full bg-gradient-to-r from-violet-500 to-fuchsia-500'>
+        <img src={Css} alt="" />
+        </div>
+        <div className='w-40 h-40 p-10  rounded-full bg-gradient-to-r from-violet-500 to-fuchsia-500'>
+        <img src={Boots} alt="" />
+        </div>
+        <div className='w-40 h-40 p-10  rounded-full bg-gradient-to-r from-violet-500 to-fuchsia-500'>
+        <img src={Tailwind} alt="" />
+        </div>
+        <div className='w-40 h-40 p-10  rounded-full bg-gradient-to-r from-violet-500 to-fuchsia-500'>
+        <img src={Js} alt="" />
+        </div>
+      </div>
+      <div className='flex gap-20 mx-auto my-20 w-full max-w-3xl'>
+      <div className='w-40 h-40 p-10  rounded-full bg-gradient-to-r from-violet-500 to-fuchsia-500'>
+        <img src={react} alt="" />
+        </div>
+        <div className='w-40 h-40 p-10  rounded-full bg-gradient-to-r from-violet-500 to-fuchsia-500'>
+        <img src={redux} alt="" />
+        </div>
+        <div className='w-40 h-40 p-10  rounded-full bg-gradient-to-r from-violet-500 to-fuchsia-500'>
+        <img src={Hub} alt="" />
+        </div>
+      </div>
+    </div>
+    </div>
     </div>
   )
 }
