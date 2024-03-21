@@ -5,7 +5,7 @@ import Hub from "../img/github.svg"
 import Day from "../img/day.png"
 const Header = () => {
     return (
-        <div className='w-full max-w-[1580px] mx-auto py-5   font-bold text-2xl '>
+        <div className='w-full max-w-[1440px] mx-auto py-5   font-bold text-2xl '>
             <div className=' flex justify-between items-center px-5'>
 
                 <div>
